@@ -10,6 +10,7 @@
         />
       </div>
       <a href="#"><i class="fa fa-map-marker"></i></a>
+      <!-- Nếu có danh sách location và có keyword thì hiện ra danh sách -->
       <ul v-if="locationList.length > 0 && keyword" class="list-location">
         <li v-for="(location, index) in locationList" :key="index">
           <span class="im im-icon-Location-2"></span>
